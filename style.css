@@ -373,6 +373,27 @@ font-weight: 900;
 }
 
 
+#content_world .current_target .target_cards .cards .A:hover{
+
+  font-weight: 900;
+  color: rgb(255, 0, 0);
+}
+
+
+#content_world .current_target .target_cards .cards .B:hover{
+
+  font-weight: 900;
+  color: rgb(17, 0, 255);
+}
+
+
+#content_world .current_target .target_cards .cards .C:hover{
+
+  font-weight: 900;
+  color: rgb(142, 145, 0);
+}
+
+
 #content_world .target_cards .one{
 
   background-color: #fff6f4;
@@ -451,5 +472,46 @@ font-weight: 900;
 }
 
 
+          /*! MAIN area end */
 
 
+#footer_information {
+
+  width: 90rem;
+  height: 10rem;
+  margin: 0px auto;
+  padding: 0 4rem;
+  /* border: 2px solid rgb(0, 255, 34); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image : url(/B10A1-Challenge-Begins/assets/Hero-bg.png);
+  background-position: center;
+
+}
+
+
+#footer_information h3{
+
+  font-size: 2rem;
+
+}
+
+#footer_information .social_icon{
+
+  width: 14rem;
+  padding: 0.5rem 1.2rem;
+  margin-right: 2.5rem;
+  border: 1px solid rgb(0, 0, 0);
+  border-style: dashed;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#footer_information .social_icon a{
+
+  text-decoration: none;
+
+}
