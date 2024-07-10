@@ -14,15 +14,16 @@ html {
 
 #hero_section{
 
-  border: 2px solid red;
+  /** border: 2px solid red; */
   height: 48rem;
   width: 90rem;
   margin: 0px auto;
+  margin-bottom: 5rem;
 }
 
 #hero_section .navigation{
 
-  border: 2px solid lime;
+  /** border: 2px solid lime; */
   display: flex;
   justify-content: space-between;
   padding: 1rem;
@@ -62,12 +63,12 @@ html {
 }
 
 
-/*! nav section design end */
+/** nav section design end */
 
 
 #hero_section .banner{
 
-  border: 2px solid rgb(225, 0, 255);
+  border: 1px solid rgb(70, 70, 70);
   border-style: dashed;
   height: 42.6rem;
   width: 89.9rem;
@@ -106,3 +107,128 @@ html {
   color: white;
   background-color: black;
 }
+
+
+         /*! Hero secton END */
+
+
+
+#content_area {
+
+  /** border: 2px solid red; */
+  height: 87.5rem;
+  width: 90rem;
+  margin: 0px auto;
+  margin-bottom: 5rem;
+  padding: 5rem;
+  background: #f8f9fb;
+}
+
+
+#content_area .main_header{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  /** border: 2px solid orange; */
+  margin-bottom: 2rem;
+
+}
+
+
+#content_area .main_header h3{
+
+  font-size: 2.5rem;
+
+
+}
+
+
+#content_area .main_header h3{
+
+  font-size: 2.5rem;
+
+
+}
+
+
+/** main > heder end */
+
+
+
+#content_area .main_body{
+
+ 
+ /** border: 2px solid brown; */
+ height: 70rem;
+ 
+
+}
+
+
+
+#content_area .main_body .crd{
+
+  width: 100%;
+  height: 21rem;
+  padding: 3rem;
+  /** border: 2px solid lime; */
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+
+}
+
+
+#content_area .main_body .card_text_area{
+
+  /** border: 2px solid rgb(255, 0, 255); */
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.4rem;
+
+}
+
+
+#content_area .main_body .card_text_area h4{
+
+  font-size: 1.9rem;
+
+}
+
+
+#content_area .main_body .card_text_area p{
+
+  font-size: 1.3rem;
+
+}
+
+
+#content_area .main_body .card_text_area button{
+
+  padding: 1.2rem;
+  width: 10rem;
+  font-size: 1.2rem;
+  background: none;
+  border-radius: 0.5rem;
+  border: 1px solid;
+  font-weight: 900;
+
+}
+
+
+#content_area .main_body .card_text_area button:hover{
+
+  border: 1px solid #1986ff;
+  background-color: #1986ff;
+  color: white;
+  font-weight: 400;
+
+}
+
