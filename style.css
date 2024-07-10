@@ -1,0 +1,108 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  }
+
+
+#hero_section{
+
+  border: 2px solid red;
+  height: 48rem;
+  width: 90rem;
+  margin: 0px auto;
+}
+
+#hero_section .navigation{
+
+  border: 2px solid lime;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+#hero_section .navigation h1{
+
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 0 0 0 2rem;
+}
+
+#hero_section .navigation h1 span{
+
+  color: #1986ff;
+  font-size: 2.5rem;
+}
+
+#hero_section .navigation button{
+
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(13, 19, 33);
+  background: none;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 0.5rem;
+  margin: 0 2rem 0 0;
+}
+
+#hero_section .navigation button:hover{
+
+  border: 1px solid #1986ff;
+  background-color: #1986ff;
+  color: white;
+  font-weight: 400;
+}
+
+
+/*! nav section design end */
+
+
+#hero_section .banner{
+
+  border: 2px solid rgb(225, 0, 255);
+  border-style: dashed;
+  height: 42.6rem;
+  width: 89.9rem;
+  background-image: url(/B10A1-Challenge-Begins/assets/Hero-bg.png);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  
+}
+
+#hero_section .banner img{
+
+  width: 20%;
+}
+
+#hero_section .banner h2{
+
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+#hero_section .banner button{
+
+  padding: 1.2rem  2rem;
+  border-radius: 0.5rem;
+  border: 1px solid;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+#hero_section .banner button:hover{
+
+  color: white;
+  background-color: black;
+}
