@@ -288,3 +288,168 @@ html {
 }
 
 
+/** main video section end */
+
+
+#content_world .current_target{
+
+  /** border: 2px solid red; */
+  height: 87.5rem;
+  width: 90rem;
+  height: 42rem;  
+  margin: 0px auto;
+
+}
+
+
+#content_world .current_target .target_text_area{
+
+  /** border: 2px solid lime; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 9rem;
+  text-align: center;
+
+}
+
+
+#content_world .current_target .target_text_area h3{
+
+  font-size: 2.5rem;
+
+}
+
+
+#content_world .current_target .target_cards{
+
+
+  /** border: 2px solid rgb(63, 41, 1); */
+  padding: 2rem;
+  height: 30rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+#content_world .current_target .target_cards .cards{
+
+
+  /** border: 2px solid orangered; */
+  width: 30%;
+  height: 21rem;
+  padding: 2rem;
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.8rem;
+
+}
+
+
+#content_world .current_target .target_cards .cards img{
+
+width: 15%;
+
+}
+
+
+#content_world .current_target .target_cards .cards h4{
+
+font-size: 1.4rem;
+font-weight: 900;
+
+}
+
+
+#content_world .current_target .target_cards .cards a{
+
+  font-weight: 900;
+  color: black;
+
+
+}
+
+
+#content_world .target_cards .one{
+
+  background-color: #fff6f4;
+
+}
+
+#content_world .target_cards .two{
+
+  background-color: #f2f6fe;
+
+}
+
+
+#content_world .target_cards .three{
+
+  background-color: #fffdf2;
+
+}
+
+
+#content_world .support{
+
+  /** border: 2px solid lime; */
+  width: 90rem;
+  height: 24rem;
+  margin: 0px auto;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.747)), url(/B10A1-Challenge-Begins/assets/handshake.jpg);
+  background-position: center;
+  color: white;
+  background-color: black;
+  border-radius: 1.5rem;
+}
+
+
+#content_world .support h4{
+
+  font-size: 2.5rem;
+}
+
+
+#content_world .support p{
+
+  font-size:  1.2rem;
+}
+
+
+#content_world .support input{
+
+  padding: 0.7rem;
+  width: 25rem;
+  border-radius: 0.7rem;
+  border: none;
+  font-size: 1.1rem;
+}
+
+
+#content_world .support button{
+
+  padding: 0.7rem;
+  border-radius: 0.7rem;
+  width: 6rem;
+  border: none;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+#content_world .support button, input{
+
+  margin-top: 2.5rem;
+}
+
+
+
+
