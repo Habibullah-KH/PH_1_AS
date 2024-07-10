@@ -466,6 +466,14 @@ font-weight: 900;
   font-size: 1.2rem;
 }
 
+
+#content_world .support button:hover{
+
+  background: none;
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+}
+
 #content_world .support button, input{
 
   margin-top: 2.5rem;
