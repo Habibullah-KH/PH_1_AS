@@ -34,12 +34,16 @@ html {
   font-size: 2rem;
   font-weight: 900;
   margin: 0 0 0 2rem;
+  cursor: pointer;
+
+
 }
 
 #hero_section .navigation h1 span{
 
   color: #1986ff;
   font-size: 2.5rem;
+
 }
 
 #hero_section .navigation button{
@@ -60,6 +64,7 @@ html {
   background-color: #1986ff;
   color: white;
   font-weight: 400;
+
 }
 
 
@@ -113,7 +118,7 @@ html {
 
 
 
-#content_area {
+#content_world .content_area {
 
   /** border: 2px solid red; */
   height: 87.5rem;
@@ -125,7 +130,7 @@ html {
 }
 
 
-#content_area .main_header{
+#content_world .content_area .main_header{
 
   display: flex;
   flex-direction: column;
@@ -138,7 +143,7 @@ html {
 }
 
 
-#content_area .main_header h3{
+#content_world .content_area .main_header h3{
 
   font-size: 2.5rem;
 
@@ -146,7 +151,7 @@ html {
 }
 
 
-#content_area .main_header h3{
+#content_world .content_area .main_header h3{
 
   font-size: 2.5rem;
 
@@ -158,7 +163,7 @@ html {
 
 
 
-#content_area .main_body{
+.content_area .main_body{
 
  
  /** border: 2px solid brown; */
@@ -169,7 +174,7 @@ html {
 
 
 
-#content_area .main_body .crd{
+#content_world .content_area .main_body .crd{
 
   width: 100%;
   height: 21rem;
@@ -183,7 +188,7 @@ html {
 }
 
 
-#content_area .main_body .card_text_area{
+#content_world .content_area .main_body .card_text_area{
 
   /** border: 2px solid rgb(255, 0, 255); */
   width: 55%;
@@ -196,21 +201,21 @@ html {
 }
 
 
-#content_area .main_body .card_text_area h4{
+#content_world .content_area .main_body .card_text_area h4{
 
   font-size: 1.9rem;
 
 }
 
 
-#content_area .main_body .card_text_area p{
+#content_world .content_area .main_body .card_text_area p{
 
   font-size: 1.3rem;
 
 }
 
 
-#content_area .main_body .card_text_area button{
+#content_world .content_area .main_body .card_text_area button{
 
   padding: 1.2rem;
   width: 10rem;
@@ -223,7 +228,7 @@ html {
 }
 
 
-#content_area .main_body .card_text_area button:hover{
+#content_world .content_area .main_body .card_text_area button:hover{
 
   border: 1px solid #1986ff;
   background-color: #1986ff;
@@ -231,4 +236,55 @@ html {
   font-weight: 400;
 
 }
+
+
+/** main video area control */
+
+
+
+#content_world .main_video_section{
+
+  /** border: 2px solid red; */
+  width: 71.25rem;
+  height: 49.438rem;
+  margin: 0px auto;
+  padding: 2rem;
+  margin-bottom: 5rem;
+}
+
+
+#content_world .main_video_section .inspiration {
+
+  /** border: 2px solid lime; */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+
+#content_world .main_video_section .inspiration h3{
+
+  font-size: 2.5rem;
+}
+
+
+#content_world .main_video_section .inspiration p{
+
+  font-size: 1.3rem;
+}
+
+
+#content_world .main_video iframe{
+
+  /** border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
 
