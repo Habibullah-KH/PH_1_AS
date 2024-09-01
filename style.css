@@ -11,6 +11,11 @@ html {
   scroll-behavior: smooth;
   }
 
+body{
+   max-width: 1920px; 
+  margin: 0px auto;
+}
+
 
 #hero_section{
 
